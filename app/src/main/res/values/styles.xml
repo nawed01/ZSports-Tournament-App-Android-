@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#D80001</item>
+        <item name="colorPrimaryDark">#D80001</item>
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">@color/mango</item>
+        <item name="minHeight">10dp</item>
+        <item name="maxHeight">20dp</item>
+    </style>
+
+</resources>

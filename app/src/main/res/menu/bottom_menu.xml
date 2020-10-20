@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/contest"
+        android:title=" Live Contest"
+        android:icon="@drawable/ic_gamer"
+        app:cnb_iconColor="@color/black"
+
+        />
+    <item
+        android:id="@+id/ongoing"
+        android:title="OnGoing"
+        android:icon="@drawable/ic_thunder"
+        app:cnb_iconColor="@color/black"/>
+    <item
+        android:id="@+id/reuslts"
+        android:title="Results"
+        android:icon="@drawable/ic_result"
+        app:cnb_iconColor="@color/black"
+        />
+    <item
+        android:id="@+id/more"
+        android:title="More"
+        android:icon="@drawable/ic_more"
+        app:cnb_iconColor="@color/black"/>
+</menu>

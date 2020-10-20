@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/gameFragment">
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.zsports.GamesFragment"
+        android:label="fragment_contest"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/onGoingfFagment"
+        android:name="com.example.zsports.onGoingFragment"
+        android:label="fragment_on_goingf_fagment"
+        tools:layout="@layout/fragment_on_going" />
+    <fragment
+        android:id="@+id/moreFragment"
+        android:name="com.example.zsports.moreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.zsports.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
+    <fragment
+        android:id="@+id/contestFragment"
+        android:name="com.example.zsports.contestFragment"
+        android:label="fragment_contest2"
+        tools:layout="@layout/fragment_contest" />
+    <fragment
+        android:id="@+id/gameModeFragment"
+        android:name="com.example.zsports.GameModeFragment"
+        android:label="fragment_game_mode"
+        tools:layout="@layout/fragment_game_mode" />
+</navigation>
